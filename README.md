@@ -2,6 +2,26 @@
 
 A new Flutter project.
 
+chat_system/
+├── server/                 # Server implementation
+│   └── bin/
+│       └── server.dart     # Server entry point
+
+├── client/                # Flutter client application
+│   ├── lib/
+│   │   ├── main.dart       # Main app entry
+│   │   ├── screens/        # UI screens
+|   |   |   |---- Web clint screen 
+│   └── ...                # Other Flutter files
+└── docs/                   # Documentation
+
+
+
+commands
+dart run bin/websocket_server.dart
+flutter run -d chrome
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

@@ -18,7 +18,7 @@ chat_system/
 
 
 commands
-dart run bin/websocket_server.dart
+dart run server.dart
 flutter run -d chrome
 
 
